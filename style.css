@@ -1,0 +1,82 @@
+/* CSS files add styling rules to your content */
+
+nav {
+  display: inline-block;
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  top: 0;
+}
+
+section {
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+nav a{
+  color: white;
+}
+
+section > div{
+  display: inline-block;
+  height: 100%;
+  margin: 2px;
+  border: 2px solid darkgray;
+  background-color: gray;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+section#about {
+  text-align: center;
+}
+
+section#about > div {
+  width: 46%;
+}
+section#about > div.head {
+  width: 100%;
+}
+
+section#gallery {
+  position: relative;  
+}
+
+section#gallery > div {
+  width: 100%;
+}
+
+#gallery img {
+  position: relative;
+  margin: 5px;
+}
+
+section#contact {
+  text-align: center;
+}
+
+section#contact > div {
+  width: 46%;
+}
+
+section#contact > div.head {
+  width: 100%;
+}
+
+section > div.head {
+  display: block;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+}
+
+section#map > div {
+  width: 100%;
+}
